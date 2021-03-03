@@ -61,9 +61,9 @@ class App extends React.Component {
         <strong>IMPORTANT!</strong> This page will work best in Chrome, Firefox, or Safari (Not Internet Explorer).<br/><br/>Once the service has started just push one of the green buttons below. The stream should start above in the player. If one doesn't work, try the next one. Once the stream starts hover over the player and click the 'full screen' icon to view the stream in full screen. <br/><br/> This page was put together pretty quick but should work on mobile devices, tablets, and computers but was mostly just tested on a computer.
         </p>
 
-        <Button onClick={() => this.load(awsExports.hls_manifest,"HLS")} className="perview" size="sm" variant="success">Preview HLS</Button>
-        <Button onClick={() => this.load(awsExports.dash_manifest,"DASH")} className="perview" size="sm" variant="success">Preview DASH</Button>
-        <Button onClick={() => this.load(awsExports.cmaf_manifest,"CMAF")} className="perview" size="sm" variant="success">Preview CMAF</Button>
+        <Button onClick={() => this.load(awsExports.hls_manifest,"HLS")} className="perview" size="sm" variant="success">HLS</Button>
+        <Button onClick={() => this.load(awsExports.dash_manifest,"DASH")} className="perview" size="sm" variant="success">DASH</Button>
+        <Button onClick={() => this.load(awsExports.cmaf_manifest,"CMAF")} className="perview" size="sm" variant="success">CMAF</Button>
         
         <CardDeck style={{ margin: '4rem auto'}}>
           <Card>
