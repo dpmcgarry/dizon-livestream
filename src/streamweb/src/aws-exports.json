@@ -1,0 +1,8 @@
+
+{
+    "mediaLiveConsole": "https://console.aws.amazon.com/medialive/home?region=us-east-1#/channels/1391606",
+    "hls_manifest": "https://d1lhph9ln2f6dg.cloudfront.net/out/v1/3888624ce33d4aacadc325d468ad7af4/index.m3u8",
+    "dash_manifest": "https://d1lhph9ln2f6dg.cloudfront.net/out/v1/6b40cf92656b4493b3bd9597f04c0188/index.mpd",
+    "cmaf_manifest": "https://d1lhph9ln2f6dg.cloudfront.net/out/v1/53bf9464e53d4d9b84be5b4f4a598e38/cmaf/index.m3u8"
+}
+  
